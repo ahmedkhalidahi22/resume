@@ -1,0 +1,685 @@
+@media only screen and (max-width: 1099px)
+{
+
+
+html{
+	font-family:poppins-M;
+	background-color: #e4e4e4;
+	background-image: url("../images/bg3.png");
+	background-size: cover;
+}
+
+@font-face {
+  font-family:poppins-M;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+
+body{
+
+    margin: 0px 10% 0px 10%; 
+    background-color: #fff;
+    position: relative;
+
+}
+
+.header{
+	display: block;
+	width:  100%;
+	text-align: center;
+	padding-top: 2em;
+	position: absolute;
+	top:0;
+	z-index: 1;
+		background: #28648e;
+}
+img{
+	width:200px;
+	border-radius: 100%;
+}
+.title{
+	width:96%;
+	background: #28648e;
+	color: white;
+	margin: 0px auto;
+	padding: 1.5em 0.5em 1.5em 0.5em;
+	
+}
+h1{
+	letter-spacing: 4px;
+	word-spacing: 8px;
+	font-size: 1.4em;
+}
+.grid{
+	display: grid;
+	grid-template-rows: 0.5fr 1fr;
+}
+.c1{
+	display: inline-block;
+	width: 100%;
+	background-color:/*#f4f4f4*/ #e26dff40;
+	position: relative;
+	padding-top: 27em;
+	padding-bottom: 2em;
+
+}
+.details , .skills{
+width: 65%;
+margin:0px auto;
+margin-left: 3em;
+}
+.skills{
+	margin-top: 10%;
+}
+.details> h2 , .skills h2{
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888; 
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+.det> h3 , .skls> h3{
+	font-size: 1.05em;
+}
+.det> p , .skls> p{
+	margin-top: -18px;
+	font-size: 0.9em;
+}
+.skls> h3{
+font-size: 0.9em;	
+}
+.mont{
+display:block;
+margin-left:13px;
+margin-top: 3px;
+}
+ .ul1 {
+	margin: 0px;
+	padding-left: 0;
+	list-style-type: none;
+}
+.c2{
+display: inline-block;
+width: 85%;
+float: right;
+padding-top: 2em;
+clear: both;
+padding-left: 2em;
+
+}
+.c2 > section{
+	width: 100%;
+	margin-bottom: 3em;
+	padding-left: 1em;
+}
+section > h2 {
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888;
+	width: 100%;
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+/* Experience SECTION  */
+
+.web{
+	line-height: 30px;
+}
+
+/* EDUCATION SECTION  */
+.ed >h3{
+	font-size: 1.1em;
+}
+.sp {
+	display: block;
+	font-style: italic;
+	font-size: 0.9em;
+	position: relative;
+	width:100%;
+	font-weight: 100;
+	color:#222;
+	text-align: right;
+	bottom: 40px;
+}
+.long{
+	bottom: 15px;
+	text-align: left;
+}
+ul{
+	line-height: 1.1em;
+}
+.ed-ul{
+	margin-top: -10px;
+}
+.second-h3{
+margin-top: 2em;
+}
+/* COURSE SECTION  */
+
+.cw{
+	margin-top: 70px;
+}
+.cw-ul{
+	margin-top:-20px;
+	margin-bottom: 2em;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1202px)
+{
+
+
+html{
+	font-family:poppins-M;
+	background-color: #e4e4e4;
+	background-image: url("../images/bg3.png");
+	background-size: cover;
+}
+
+@font-face {
+  font-family:poppins-M;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+
+body{
+
+    margin: 0px 10% 0px 10%; 
+    background-color: #fff;
+    position: relative;
+
+}
+
+.header{
+	display: block;
+	width:  100%;
+	text-align: center;
+	padding-top: 2em;
+	position: absolute;
+	top:0;
+	z-index: 1;
+	background-color: transparent;
+}
+
+.title{
+	width:55%; 
+	margin: 0px auto;
+	border:solid 2px #555;
+	padding: 1.5em 0.5em 1.5em 0.5em;
+	
+}
+h1{
+	letter-spacing: 4px;
+	word-spacing: 8px;
+}
+img{
+width: 170px;
+position: absolute;
+left: 5px;
+border-radius: 100%;
+
+}
+.grid{
+	display: grid;
+	grid-template-columns: 33% 67%;
+}
+.c1{
+	display: inline-block;
+	width: 100%;
+	background-color:/*#f4f4f4*/ #e26dff40;
+	position: relative;
+	padding-top: 15em;
+
+}
+.details , .skills{
+width: 65%;
+margin:0px auto;
+margin-left: 15%;
+}
+.skills{
+	margin-top: 10%;
+}
+.details> h2 , .skills h2{
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888; 
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+.det> h3 , .skls> h3{
+	font-size: 1.05em;
+}
+.det> p , .skls> p{
+	margin-top: -18px;
+	font-size: 0.9em;
+}
+.skls> h3{
+font-size: 0.9em;	
+}
+.mont{
+display:block;
+margin-left:13px;
+margin-top: 3px;
+}
+ .ul1 {
+	margin: 0px;
+	padding-left: 0;
+	list-style-type: none;
+}
+.c2{
+display: inline-block;
+width: 85%;
+float: right;
+padding-top: 15em;
+clear: both;
+padding-left: 2em;
+
+}
+.c2 > section{
+	width: 100%;
+	margin-bottom: 3em;
+	padding-left: 1em;
+}
+section > h2 {
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888;
+	width: 100%;
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+/* Experience SECTION  */
+
+.web{
+	line-height: 30px;
+}
+
+/* EDUCATION SECTION  */
+.ed >h3{
+	font-size: 1.1em;
+}
+.sp {
+	display: block;
+	font-style: italic;
+	font-size: 0.9em;
+	position: relative;
+	width:100%;
+	font-weight: 100;
+	color:#222;
+	text-align: right;
+	bottom: 40px;
+}
+.long{
+	bottom: 15px;
+	text-align: left;
+}
+ul{
+	line-height: 1.1em;
+}
+.ed-ul{
+	margin-top: -10px;
+}
+.second-h3{
+margin-top: 2em;
+}
+/* COURSE SECTION  */
+
+.cw{
+	margin-top: 70px;
+}
+.cw-ul{
+	margin-top:-20px;
+	margin-bottom: 2em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1203px) and (max-width: 1693px){
+
+
+html{
+	font-family:poppins-M;
+	background-color: #e4e4e4;
+	background-image: url("../images/bg3.png");
+	background-size: cover;
+}
+
+@font-face {
+  font-family:poppins-M;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+
+body{
+
+    margin: 0px 10% 0px 10%; 
+    background-color: #fff;
+    position: relative;
+
+}
+
+.header{
+	display: block;
+	width:  100%;
+	text-align: center;
+	padding-top: 2em;
+	position: absolute;
+	top:0;
+	z-index: 1;
+	background-color: transparent;
+}
+.title{
+	width:55%; 
+	margin: 0px auto;
+	border:solid 2px #555;
+	padding: 1.5em 0.5em 1.5em 0.5em;
+	
+}
+h1{
+	letter-spacing: 4px;
+	word-spacing: 8px;
+}
+img{
+width: 190px;
+position: absolute;
+left: 5px;
+border-radius: 100%;
+
+}
+.grid{
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+.c1{
+	display: inline-block;
+	width: 100%;
+	background-color:/*#f4f4f4*/ #e26dff40;
+	position: relative;
+	padding-top: 15em;
+
+}
+.details , .skills{
+width: 65%;
+margin:0px auto;
+margin-left: 15%;
+}
+.skills{
+	margin-top: 10%;
+}
+.details> h2 , .skills h2{
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888; 
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+.det> h3 , .skls> h3{
+	font-size: 1.05em;
+}
+.det> p , .skls> p{
+	margin-top: -18px;
+	font-size: 0.9em;
+}
+.skls> h3{
+font-size: 0.9em;	
+}
+.mont{
+display:block;
+margin-left:13px;
+margin-top: 3px;
+}
+ .ul1 {
+	margin: 0px;
+	padding-left: 0;
+	list-style-type: none;
+}
+.c2{
+display: inline-block;
+width: 85%;
+float: right;
+padding-top: 15em;
+clear: both;
+padding-left: 2em;
+
+}
+.c2 > section{
+	width: 100%;
+	margin-bottom: 3em;
+	padding-left: 1em;
+}
+section > h2 {
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888;
+	width: 100%;
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+/* Experience SECTION  */
+
+.web{
+	line-height: 30px;
+}
+
+/* EDUCATION SECTION  */
+.ed >h3{
+	font-size: 1.1em;
+}
+.sp {
+	display: block;
+	font-style: italic;
+	font-size: 0.9em;
+	position: relative;
+	width:100%;
+	font-weight: 100;
+	color:#222;
+	text-align: right;
+	bottom: 40px;
+}
+ul{
+	line-height: 1.1em;
+}
+.ed-ul{
+	margin-top: -40px;
+}
+.second-h3{
+margin-top: 2em;
+}
+
+/* COURSE SECTION  */
+
+.cw{
+	margin-top: 70px;
+}
+.cw-ul{
+	margin-top:-40px;
+	margin-bottom: 2em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1694px) {
+
+
+html{
+	font-family:poppins-M;
+	background-color: #e4e4e4;
+	background-image: url("../images/bg3.png");
+	background-size: cover;
+}
+
+@font-face {
+  font-family:poppins-M;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+
+body{
+
+    margin: 0px 10% 0px 10%; 
+    background-color: #fff;
+    position: relative;
+
+}
+
+.header{
+	display: block;
+	width:  100%;
+	text-align: center;
+	padding-top: 2em;
+	position: absolute;
+	top:0;
+	z-index: 1;
+	background-color: transparent;
+}
+.title{
+	width:55%; 
+	margin: 0px auto;
+	border:solid 2px #555;
+	padding: 1.5em 0.5em 1.5em 0.5em;
+	
+}
+h1{
+	letter-spacing: 4px;
+	word-spacing: 8px;
+}
+img{
+width: 200px;
+position: absolute;
+left: 86px;
+border-radius: 100%;
+
+}
+.grid{
+	display: grid;
+	grid-template-columns: 27% 73%;
+}
+.c1{
+	display: inline-block;
+	width: 100%;
+	background-color:/*#f4f4f4*/ #e26dff40;
+	position: relative;
+	padding-top: 15em;
+
+}
+.details , .skills{
+width: 65%;
+margin:0px auto;
+margin-left: 26%;
+}
+.skills{
+	margin-top: 10%;
+}
+.details> h2 , .skills h2{
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888; 
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+.det> h3 , .skls> h3{
+	font-size: 1.05em;
+}
+.det> p , .skls> p{
+	margin-top: -18px;
+	font-size: 0.9em;
+}
+.skls> h3{
+font-size: 1em;	
+}
+ .ul1 {
+	margin: 0px;
+	padding-left: 0;
+	list-style-type: none;
+}
+.c2{
+display: inline-block;
+width: 70%;
+float: right;
+padding-top: 15em;
+clear: both;
+padding-left: 2em;
+
+}
+.c2 > section{
+	width: 100%;
+	margin-bottom: 4em;
+	padding-left: 1em;
+}
+section > h2 {
+	padding-bottom: 0.2em;
+	border-bottom: solid 2px #888;
+	width: 100%;
+	letter-spacing: 3px;
+	font-size: 1.4em;
+
+}
+
+
+/* EDUCATION SECTION  */
+.ed >h3{
+	font-size: 1.1em;
+}
+.sp {
+	display: block;
+	font-style: italic;
+	font-size: 0.9em;
+	position: relative;
+	width:100%;
+	font-weight: 100;
+	color:#222;
+	text-align: right;
+	bottom: 40px;
+}
+.ed-ul{
+	margin-top: -40px;
+}
+ul{
+	line-height: 1.1em;
+}
+.second-h3{
+	margin-top: 2em;
+}
+
+/* Experience SECTION  */
+.ex{
+	margin-top:-35px;
+}
+.web{
+	line-height: 30px;
+}
+
+/* COURSE SECTION  */
+
+.cw{
+	margin-top: 70px;
+}
+.cw-ul{
+	margin-top:-40px;
+	margin-bottom: 2em;
+}
+
+}
