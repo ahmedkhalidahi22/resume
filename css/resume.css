@@ -57,6 +57,7 @@ h1{
 	display: inline-block;
 	width: 100%;
 	background-color:/*#f4f4f4*/ #e26dff40;
+	 background:linear-gradient(117deg, #e26dff52, #ebf0ff);
 	position: relative;
 	padding-top: 27em;
 	padding-bottom: 2em;
