@@ -70,19 +70,33 @@ margin-left: 3em;
 .skills{
 	margin-top: 10%;
 }
+.socials{
+	display: block;
+	margin-top: 30px;
+}
+.socials i{
+	color: #432261;
+	text-decoration: none;
+}
+.linkedin{
+	margin-left: 1em;
+}
 .details> h2 , .skills h2{
 	padding-bottom: 0.2em;
-	border-bottom: solid 2px #888; 
+	border-bottom: solid 2px #28648e; 
 	letter-spacing: 3px;
-	font-size: 1.4em;
+	font-size: 1.5em;
 
 }
 .det> h3 , .skls> h3{
 	font-size: 1.05em;
 }
 .det> p , .skls> p{
-	margin-top: -18px;
+	margin-top: 3px;
 	font-size: 0.9em;
+}
+.det{
+	margin-bottom: 1.2em;
 }
 .skls> h3{
 font-size: 0.9em;	
@@ -97,11 +111,26 @@ margin-top: 3px;
 	padding-left: 0;
 	list-style-type: none;
 }
+.resume{
+	display: block;
+	text-align: right;
+	padding-right: 0.5em;
+}
+.resume>i{
+	margin-right: 0.2em;
+	color: #222;
+	}
+.resume>span{
+	color: #444;
+}
+.resume:hover i ,  .resume:hover span{
+	color:#000;
+} 
 .c2{
 display: inline-block;
 width: 75%;
 float: right;
-padding-top: 2em;
+padding-top: 2.5em;
 clear: both;
 padding-left: 2em;
 
@@ -115,7 +144,7 @@ section > h2 {
 	padding-bottom: 0em;
 	width: 88%;
 	letter-spacing: 3px;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	color: #28648e;
 	margin-bottom: 0px;
 
@@ -125,7 +154,26 @@ section > h2 {
 ul> li {
 	line-height: 19px;
 }
-
+.ex-ul > li{
+	line-height: 29px;
+}
+.link{
+	text-decoration: none;
+	background: #b70054;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 6px 10px;
+	border-radius: 8px;
+	margin-left: 3px;
+	transition: all 0.3s;
+}
+.link:hover {
+	background: #fff;
+	color: #b70054;
+	border: 1px solid #b70054;
+}
 /* EDUCATION SECTION  */
 .ed >h3{
 	font-size: 0.97em;
@@ -164,7 +212,7 @@ margin-top: 2em;
 }
 .cw-ul{
 	margin-top:-20px;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 }
 
@@ -239,6 +287,7 @@ border-radius: 100%;
 	padding-top: 15em;
 
 }
+i{display: hidden}
 .details , .skills{
 width: 65%;
 margin:0px auto;
@@ -246,6 +295,17 @@ margin-left: 15%;
 }
 .skills{
 	margin-top: 10%;
+}
+.socials{
+	display: block;
+	margin-top: 40px;
+}
+.socials i{
+	color: #432261;
+	text-decoration: none;
+}
+.linkedin{
+	margin-left: 1em;
 }
 .details> h2 , .skills h2{
 	padding-bottom: 0.2em;
@@ -258,8 +318,11 @@ margin-left: 15%;
 	font-size: 1.05em;
 }
 .det> p , .skls> p{
-	margin-top: -18px;
+	margin-top: 5px;
 	font-size: 0.9em;
+}
+.det{
+	margin-bottom: 1.2em
 }
 .skls> h3{
 font-size: 0.9em;	
@@ -274,6 +337,22 @@ margin-top: 3px;
 	padding-left: 0;
 	list-style-type: none;
 }
+.resume{
+	display: block;
+	text-align: right;
+	padding-right: 1em;
+	margin-top: 4em;
+}
+.resume>i{
+	margin-right: 0.2em;
+	color: #222;
+	}
+.resume>span{
+	color: #444;
+}
+.resume:hover i ,  .resume:hover span{
+	color:#000;
+} 
 .c2{
 display: inline-block;
 width: 85%;
@@ -301,7 +380,23 @@ section > h2 {
 .web{
 	line-height: 30px;
 }
-
+.link{
+	text-decoration: none;
+	background: #b70054;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 6px 10px;
+	border-radius: 8px;
+	margin-left: 3px;
+	transition: all 0.3s;
+}
+.link:hover {
+	background: #fff;
+	color: #b70054;
+	border: 1px solid #b70054;
+}
 /* EDUCATION SECTION  */
 .ed >h3{
 	font-size: 1.1em;
@@ -416,6 +511,7 @@ border-radius: 100%;
 	padding-top: 15em;
 
 }
+i{display: hidden}
 .details , .skills{
 width: 65%;
 margin:0px auto;
@@ -423,6 +519,20 @@ margin-left: 15%;
 }
 .skills{
 	margin-top: 10%;
+}
+.socials{
+	display: block;
+	margin-top: 40px;
+}
+.socials i{
+	color: #432261;
+	text-decoration: none;
+}
+.linkedin{
+	margin-left: 1em;
+}
+.linkedin:hover ,.github:hover{
+	color:#59436d;
 }
 .details> h2 , .skills h2{
 	padding-bottom: 0.2em;
@@ -435,8 +545,11 @@ margin-left: 15%;
 	font-size: 1.05em;
 }
 .det> p , .skls> p{
-	margin-top: -18px;
+	margin-top: 5px;
 	font-size: 0.9em;
+}
+.det{
+	margin-bottom: 1.2em;
 }
 .skls> h3{
 font-size: 0.9em;	
@@ -451,6 +564,22 @@ margin-top: 3px;
 	padding-left: 0;
 	list-style-type: none;
 }
+.resume{
+	display: block;
+	text-align: right;
+	padding-right: 1em;
+	margin-top: 4em;
+}
+.resume>i{
+	margin-right: 0.2em;
+	color: #222;
+	}
+.resume>span{
+	color: #444;
+}
+.resume:hover i ,  .resume:hover span{
+	color:#000;
+} 
 .c2{
 display: inline-block;
 width: 85%;
@@ -478,7 +607,23 @@ section > h2 {
 .web{
 	line-height: 30px;
 }
-
+.link{
+	text-decoration: none;
+	background: #b70054;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 6px 10px;
+	border-radius: 8px;
+	margin-left: 3px;
+	transition: all 0.3s;
+}
+.link:hover {
+	background: #fff;
+	color: #b70054;
+	border: 1px solid #b70054;
+}
 /* EDUCATION SECTION  */
 .ed >h3{
 	font-size: 1.1em;
@@ -589,10 +734,26 @@ border-radius: 100%;
 	padding-top: 15em;
 
 }
+
+ i { 
+	color: black;
+
+}
 .details , .skills{
 width: 65%;
 margin:0px auto;
 margin-left: 26%;
+}
+.socials{
+	display: block;
+	margin-top: 40px;
+}
+.socials i{
+	color: #432261;
+	text-decoration: none;
+}
+.linkedin{
+	margin-left: 1em;
 }
 .skills{
 	margin-top: 10%;
@@ -608,8 +769,11 @@ margin-left: 26%;
 	font-size: 1.05em;
 }
 .det> p , .skls> p{
-	margin-top: -18px;
+	margin-top: 0px;
 	font-size: 0.9em;
+}
+.det{
+margin-bottom: 1.2em;
 }
 .skls> h3{
 font-size: 1em;	
@@ -619,6 +783,22 @@ font-size: 1em;
 	padding-left: 0;
 	list-style-type: none;
 }
+.resume{
+	display: block;
+	text-align: right;
+	padding-right: 1em;
+	margin-top: 4em;
+}
+.resume>i{
+	margin-right: 0.2em;
+	color: #222;
+	}
+.resume>span{
+	color: #444;
+}
+.resume:hover i ,  .resume:hover span{
+	color:#000;
+} 
 .c2{
 display: inline-block;
 width: 70%;
@@ -675,7 +855,23 @@ ul{
 .web{
 	line-height: 30px;
 }
-
+.link{
+	text-decoration: none;
+	background: #b70054;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 6px 10px;
+	border-radius: 8px;
+	margin-left: 3px;
+	transition: all 0.3s;
+}
+.link:hover {
+	background: #fff;
+	color: #b70054;
+	border: 1px solid #b70054;
+}
 /* COURSE SECTION  */
 
 .cw{
