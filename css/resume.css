@@ -16,7 +16,7 @@ html{
 
 body{
 
-    margin: 0px 10% 0px 10%; 
+    margin: 0px 5% 0px 5%; 
     background-color: #fff;
     position: relative;
 
@@ -37,7 +37,7 @@ img{
 	border-radius: 100%;
 }
 .title{
-	width:96%;
+	width:88%;
 	background: #28648e;
 	color: white;
 	margin: 0px auto;
@@ -99,7 +99,7 @@ margin-top: 3px;
 }
 .c2{
 display: inline-block;
-width: 85%;
+width: 75%;
 float: right;
 padding-top: 2em;
 clear: both;
@@ -112,22 +112,23 @@ padding-left: 2em;
 	padding-left: 1em;
 }
 section > h2 {
-	padding-bottom: 0.2em;
-	border-bottom: solid 2px #888;
-	width: 100%;
+	padding-bottom: 0em;
+	width: 88%;
 	letter-spacing: 3px;
 	font-size: 1.4em;
+	color: #28648e;
+	margin-bottom: 0px;
 
 }
 /* Experience SECTION  */
 
-.web{
-	line-height: 30px;
+ul> li {
+	line-height: 19px;
 }
 
 /* EDUCATION SECTION  */
 .ed >h3{
-	font-size: 1.1em;
+	font-size: 0.97em;
 }
 .sp {
 	display: block;
@@ -137,8 +138,8 @@ section > h2 {
 	width:100%;
 	font-weight: 100;
 	color:#222;
-	text-align: right;
-	bottom: 40px;
+	text-align: left;
+	bottom: 15px;
 }
 .long{
 	bottom: 15px;
@@ -148,7 +149,7 @@ ul{
 	line-height: 1.1em;
 }
 .ed-ul{
-	margin-top: -10px;
+	margin-top: -17px;
 }
 .second-h3{
 margin-top: 2em;
@@ -158,9 +159,12 @@ margin-top: 2em;
 .cw{
 	margin-top: 70px;
 }
+.cw>h3{
+	font-size: 0.97em;
+}
 .cw-ul{
 	margin-top:-20px;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 }
 
