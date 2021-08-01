@@ -57,7 +57,7 @@ h1{
 	display: inline-block;
 	width: 100%;
 	background-color:/*#f4f4f4*/ #e26dff40;
-	 background:linear-gradient(117deg, #e26dff52, #ebf0ff);
+  background:linear-gradient(117deg, #e26dff52, #ebf0ff);
 	position: relative;
 	padding-top: 27em;
 	padding-bottom: 2em;
@@ -76,7 +76,14 @@ margin-left: 3em;
 	margin-top: 30px;
 }
 .socials i{
-	color: #432261;
+	color: #5d3086;
+	text-decoration: none;
+}
+.socials i:hover{
+	color: #451d6b;
+
+}
+.socials a{
 	text-decoration: none;
 }
 .linkedin{
@@ -165,10 +172,11 @@ ul> li {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	padding: 6px 10px;
+	padding: 5px 9px;
 	border-radius: 8px;
 	margin-left: 3px;
 	transition: all 0.3s;
+	border: solid 1px #b70054;
 }
 .link:hover {
 	background: #fff;
@@ -302,7 +310,14 @@ margin-left: 15%;
 	margin-top: 40px;
 }
 .socials i{
-	color: #432261;
+	color: #5d3086;
+	text-decoration: none;
+}
+.socials i:hover{
+	color: #451d6b;
+
+}
+.socials a{
 	text-decoration: none;
 }
 .linkedin{
@@ -388,10 +403,11 @@ section > h2 {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	padding: 6px 10px;
+	padding: 5px 9px;
 	border-radius: 8px;
 	margin-left: 3px;
 	transition: all 0.3s;
+	border: solid 1px #b70054;
 }
 .link:hover {
 	background: #fff;
@@ -526,7 +542,14 @@ margin-left: 15%;
 	margin-top: 40px;
 }
 .socials i{
-	color: #432261;
+	color: #5d3086;
+	text-decoration: none;
+}
+.socials i:hover{
+	color: #451d6b;
+
+}
+.socials a{
 	text-decoration: none;
 }
 .linkedin{
@@ -615,10 +638,11 @@ section > h2 {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	padding: 6px 10px;
+	padding: 5px 9px;
 	border-radius: 8px;
 	margin-left: 3px;
 	transition: all 0.3s;
+	border: solid 1px #b70054;
 }
 .link:hover {
 	background: #fff;
@@ -750,7 +774,15 @@ margin-left: 26%;
 	margin-top: 40px;
 }
 .socials i{
-	color: #432261;
+	color: #5d3086;
+	text-decoration: none;
+}
+.socials i:hover{
+	color: #451d6b;
+
+}
+.socials a{
+
 	text-decoration: none;
 }
 .linkedin{
@@ -863,10 +895,11 @@ ul{
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	padding: 6px 10px;
+	padding: 5px 9px;
 	border-radius: 8px;
 	margin-left: 3px;
 	transition: all 0.3s;
+	border: solid 1px #b70054;
 }
 .link:hover {
 	background: #fff;
